@@ -92,18 +92,14 @@ Satori_npc_chatbot/          # Root directory
 ## Configuration
 
 <!-- List any important settings that can be adjusted or need to be modified. -->
-<!-- remove / add more if needed -->
 
-| Setting               | Location                   | Description                                                  | Default Value            |
-|------------------------|----------------------------|--------------------------------------------------------------|--------------------------|
-| Setting                    | Location                               | Description                                                                                                        | Default Value            |
+| Setting                      | Location                               | Description                                                                                                                 | Default Value |
+|-----------------------------|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|----------------|
+| Player Speed                | `PlayerController` Script              | Adjusts the movement speed of the player.                                                                                   | `5.0`          |
+| Access Token (Dialogflow CX) | `Assets/Chatbot/DialogflowChatbotM.cs` | Handles multilingual chatbot interactions by connecting to Dialogflow CX for intent recognition, Google STT for voice input processing, and Google TTS for voice output. Token refreshes automatically every 20 minutes. |                |
+| Access Token (NPC-Lia)      | `Assets/Chatbot/NPCChatbotLia.cs`      | Connects Lia NPC to Dialogflow CX for conversation logic. Uses STT for interpreting player or NPC speech input and TTS to generate Lia's voice response. Access token refreshes every 20 minutes.                    |                |
+| Access Token (NPC-Revi)     | `Assets/Chatbot/NPCChatbotRevi.cs`     | Connects Revi NPC to Dialogflow CX and integrates Google STT and TTS for full voice-based NPC-to-NPC interactions. Token refresh is handled automatically every 20 minutes.                                         |                |
 
-| Player Speed               | `PlayerController` Script              | Adjusts the movement speed of the player.                                                                         | `5.0`                    |
-| Access Token (Dialogflow CX) | `Assets/Chatbot/DialogflowChatbotM.cs` | Handles multilingual chatbot interactions by connecting to Dialogflow CX for intent recognition, Google STT for voice input processing, and Google TTS for voice output. Token refreshes automatically every 20 minutes. |                          |
-| Access Token (NPC-Lia)     | `Assets/Chatbot/NPCChatbotLia.cs`      | Connects Lia NPC to Dialogflow CX for conversation logic. Uses STT for interpreting player or NPC speech input and TTS to generate Lia's voice response. Access token refreshes every 20 minutes. |                          |
-| Access Token (NPC-Revi)    | `Assets/Chatbot/NPCChatbotRevi.cs`     | Connects Revi NPC to Dialogflow CX and integrates Google STT and TTS for full voice-based NPC-to-NPC interactions. Token refresh is handled automatically every 20 minutes. |                          |
-
----
 
 ## Contact
 
