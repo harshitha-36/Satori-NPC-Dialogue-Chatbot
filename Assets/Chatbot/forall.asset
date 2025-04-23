@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3663d6a9358ae4149aad3496e56d4601, type: 3}
+  m_Name: forall
+  m_EditorClassIdentifier: 
+  Lod: 0
+  Pose: 0
+  TextureAtlas: 2
+  TextureSizeLimit: 1024
+  TextureChannel: 0400000003000000020000000100000000000000
+  UseHands: 1
+  UseDracoCompression: 0
+  UseMeshOptCompression: 0
+  Shader: {fileID: 0}
+  ShaderProperties:
+  - TextureChannel: 0
+    PropertyName: _MainTex
+  - TextureChannel: 1
+    PropertyName: _BumpMap
+  - TextureChannel: 2
+    PropertyName: 
+  - TextureChannel: 3
+    PropertyName: 
+  - TextureChannel: 4
+    PropertyName: 
+  ShaderPropertyMapping:
+  - SourceProperty: baseColorTexture
+    TargetProperty: _MainTex
+    Type: 0
+  - SourceProperty: normalTexture
+    TargetProperty: _BumpMap
+    Type: 0
+  - SourceProperty: metallicRoughnessTexture
+    TargetProperty: 
+    Type: 0
+  - SourceProperty: metallicFactor
+    TargetProperty: metallicFactor
+    Type: 1
+  - SourceProperty: roughnessFactor
+    TargetProperty: 
+    Type: 1
+  - SourceProperty: emissiveTexture
+    TargetProperty: emissiveTexture
+    Type: 0
+  - SourceProperty: emissiveFactor
+    TargetProperty: emissiveFactor
+    Type: 2
+  - SourceProperty: occlusionTexture
+    TargetProperty: occlusionTexture
+    Type: 0
+  - SourceProperty: occlusionTexture_strength
+    TargetProperty: 
+    Type: 1
+  MorphTargets:
+  - viseme_sil
+  - viseme_PP
+  - viseme_TH
+  - viseme_FF
+  - viseme_DD
+  - viseme_kk
+  - viseme_CH
+  - viseme_SS
+  - viseme_nn
+  - viseme_RR
+  - viseme_aa
+  - viseme_E
+  - viseme_I
+  - viseme_O
+  - viseme_U
+  - Oculus Visemes
+  - browInnerUp
+  - browDownLeft
+  - eyesClosed
+  - eyeBlinkLeft
+  - eyeSquintRight
+  - eyeBlinkRight
+  - eyeSquintLeft
+  - mouthStretchLeft
+  - mouthLeft
+  - jawOpen
+  - noseSneerLeft
+  - jawLeft
+  - jawForward
+  - noseSneerRight
+  - mouthOpen
+  - cheekPuff
+  - mouthSmileLeft
+  - mouthSmileRight
+  - mouthRight
+  - mouthClose
+  - tongueOut
+  - mouthPressLeft
+  - eyesLookUp
+  - mouthFrownLeft
