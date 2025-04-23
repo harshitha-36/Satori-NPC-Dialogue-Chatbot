@@ -97,7 +97,7 @@ Satori_npc_chatbot/          # Root directory
 | Setting               | Location                   | Description                                                  | Default Value            |
 |------------------------|----------------------------|--------------------------------------------------------------|--------------------------|
 | Setting                    | Location                               | Description                                                                                                        | Default Value            |
-|----------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------------|
+
 | Player Speed               | `PlayerController` Script              | Adjusts the movement speed of the player.                                                                         | `5.0`                    |
 | Access Token (Dialogflow CX) | `Assets/Chatbot/DialogflowChatbotM.cs` | Handles multilingual chatbot interactions by connecting to Dialogflow CX for intent recognition, Google STT for voice input processing, and Google TTS for voice output. Token refreshes automatically every 20 minutes. |                          |
 | Access Token (NPC-Lia)     | `Assets/Chatbot/NPCChatbotLia.cs`      | Connects Lia NPC to Dialogflow CX for conversation logic. Uses STT for interpreting player or NPC speech input and TTS to generate Lia's voice response. Access token refreshes every 20 minutes. |                          |
